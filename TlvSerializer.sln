@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{093EABD3-D1F4-4BA7-B258-82E07D812655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3C7514CF-1B64-4C5A-A6C3-47A9B1BD4796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlvSerializer", "src\TlvSerializer\TlvSerializer.csproj", "{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlvSerializer.Tests", "tests\TlvSerializer.Tests\TlvSerializer.Tests.csproj", "{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F} = {093EABD3-D1F4-4BA7-B258-82E07D812655}
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE} = {3C7514CF-1B64-4C5A-A6C3-47A9B1BD4796}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|x64.Build.0 = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Debug|x86.Build.0 = Debug|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|x64.ActiveCfg = Release|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|x64.Build.0 = Release|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|x86.ActiveCfg = Release|Any CPU
+		{EAA69D0C-E448-4081-9BF8-0AD59FD1B26F}.Release|x86.Build.0 = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|x64.Build.0 = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{8BC74828-ABA1-4B5C-85AD-9F0F0B1952FE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
